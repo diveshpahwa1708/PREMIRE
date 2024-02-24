@@ -1,0 +1,1166 @@
+@media (max-width:600px) {
+    *{
+        padding: 0;margin: 0;box-sizing: border-box;font-family:'gilroy';
+    }
+    html, body{
+    width: 100%;
+    height: 100%;
+    }
+    main{
+        position: relative;
+    }
+    .pg1{
+        width: 100%;
+        height: 120vh;
+        padding-top: 1vw;
+    }
+    nav{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    nav div{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2vw;
+    }
+    nav div:nth-child(1){
+        width: 35%;
+        border-right: 2px solid black;
+    }
+    nav div:nth-child(2){
+        width: 20%;
+        border-right: 2px solid black;
+        justify-content: center;
+    }
+    nav div:nth-child(3){
+        width: 25%;
+        border-right: 2px solid black;
+        justify-content: center;
+    }
+    nav div:nth-child(4){
+        width: 20%;
+        justify-content: center;
+    }
+    nav h1{
+        font-size: 3.6vw;
+        font-family: monument;
+    }
+    nav h4{
+        font-size: 2vw;
+    }
+    .pg1 .hero{
+        width: 100%;
+        height:90vh ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:2vw 5vw;
+    }
+    .hero .content{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .pg1 video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position:top;
+    }
+    .pg1 .hero h1{
+        font-size: 6vw;
+        color: white;
+        font-weight: 700;
+        font-family: monument;
+        position: absolute;
+        bottom: 10%;
+        left: 3vw;
+        width: 45%;
+    }
+    
+    .pg2{
+        width: 100%;
+        min-height: 100vh;
+        margin-top: 10vw;
+    }
+    .pg2-1{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .pg2-1 .left{
+        height: 50vh;
+        width: 100%;
+        object-fit: cover;
+        padding-right: 0.4vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: .5vw;
+        position: relative;
+    }
+    .pg2-1 .left img{
+        height: 98%;
+        width: 70%;
+    }
+    .pg2-1 .right{
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.6vw;
+        margin-top: 10vw;
+    }
+    .pg2-1 .right .top{
+        width: 70% ;
+        height: 75%;
+        overflow: hidden;
+    }
+    .pg2-1 .right .top img{
+        width: 100% ;
+        height: 100%;
+    object-fit: cover;    
+    object-position: top;
+    }
+    .pg2-1 .right .bottom{
+        width: 65%;
+        height: 24%;
+        display: flex;
+        padding-top: 1vw;
+        justify-content: space-between;
+    }
+    .pg2-1 .right .bottom h4{
+        font-size: 2vw;
+    width: 40%;
+    }
+    .pg2-1 .right .bottom p{
+        font-size: 1.8vw;
+        width: 50%;
+    }
+    .pg2-1 h2{
+        font-size: 3.5vw;
+        position: absolute;
+        left: 15%;
+        bottom: -3%;
+        font-family: monument;
+    }
+    .pg2-2{
+        width: 100%;
+        height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vw;
+    }
+    .pg2-2 .left {
+        width: 100%;
+        height: 30vh;
+        padding: 3vw;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: space-between;
+    
+    }
+    .pg2-2 .left .top{
+        width: 100%;
+        height: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pg2-2 .left .top img{
+        height: 60%;
+        animation-name: circle;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    @keyframes circle {
+        to{
+            rotate: 360deg;
+        }
+    }
+    .pg2-2 .left .bottom{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+    .pg2-2 .left h4{
+        font-size:2.5vw ;
+        width: 50%;
+    }
+    .pg2-2 .right{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 7vw;
+    }
+    .pg2-2 .right .img{
+    width: 75%;
+    height: 100%;
+    overflow: hidden;
+    }
+    .pg2-2 .right .img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .pg2-3{
+        height: 40vh;
+        width: 100%;
+        margin-top: 10vw;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .pg2-3 .img{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .pg2-3 .img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    .pg3{
+        width: 100%;
+    height: 60vh;
+margin-top: 10vw;
+    }
+    .pg3 .top{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pg3 h1{
+        font-size: 4vw;
+        font-weight: 600;
+        font-family: monument;
+    }
+    .pg3 .bottom{
+        width: 100%;
+        height: 50vh;
+        padding: 3vw 10vw;
+    }
+    .pg3 section{
+        width: 100%;
+        height: 25%;
+        border-top: 2px solid black;
+        display: flex;
+        align-items: center;
+        gap: 7vw;
+        padding-left: 1vw;
+        padding: 1.2vw 0;
+    }
+    .pg3 section:nth-last-child(1){
+        border-bottom: 2px solid black;
+    }
+    .pg3 section h4{
+        font-size: 2.5vw;
+        width: 10%;
+    }
+    .pg3 section .img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .pg3 section .img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .pg3 section h2{
+        font-size: 3.8vw;
+    }
+    .pg4{
+        width: 100%;
+        min-height: 100vh;
+        margin-top: 10vw;
+    }
+    .pg4-1{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pg4-1 .left{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .pg4-1 .left .img{
+        height: 100%;
+        width: 75%;
+     overflow: hidden;
+    }
+    .pg4-1 .left img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    .pg4-1 .right{
+        width: 100%;
+        height: 50vh;
+        padding: 2vw 1vw;
+        margin-top: 7vw;
+    }
+    .pg4-1 .right .top{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        padding-left: 5vw;
+    }
+    .pg4-1 .right h1{
+        font-size: 3vw;
+        font-family: monument;
+    }
+    .pg4-1 .right h2{
+        font-size: 2vw;
+        font-weight: 600;
+        width: 60%;
+    }
+    .pg4-1 .right p{
+        font-size: 1.5vw;
+        width: 90%;
+    }
+    .pg4-1 .right .bottom{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .pg4-1 .right .bottom .img:nth-child(1){
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    }
+    .pg4-1 .right .bottom .img:nth-child(2){
+        width: 40%;
+        height: 100%;
+    overflow: hidden;
+        }
+    .pg4-1 .right img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .pg4-2{
+        width: 100%;
+        height: 30vh;
+        padding: 3vw;
+        margin-top: 10vw;
+    }
+    .pg4-2 .img{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    .pg4-2 img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .pg2-1-1{
+        margin-top: 10vw;
+        height: 110vh;
+    }
+    .marquee{
+        width: 100%;
+        height: 8vh;
+      white-space: nowrap;
+        margin: 5vw 0;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        overflow: auto;
+        margin-top: 10vw;
+    }
+    .marquee .container{
+        height: 100%;
+        width: fit-content;
+        display: inline-block;
+        animation-name: marquee;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    .marquee .box{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 1.5vw;   
+    }
+    .marquee::-webkit-scrollbar{
+        display: none;
+    }
+    .marquee h4{
+        font-size: 5vw;
+        font-weight: 900;
+        flex-shrink: 0;
+        color: transparent;
+        -webkit-text-stroke: 1px black;
+        font-family: monument;
+    }
+    .pg5{
+        width: 100%;
+       height: 40vh;
+        display: flex;
+        margin-top: 10vw;
+    }
+    .pg5 .left{
+        height: 100%;
+        width: 20%;
+        padding: 3vw;
+    }
+    .pg5 .left h1{
+        font-size: 3.5vw;
+        font-size: 600;
+        font-family: monument;
+    }
+    .pg5 .mid{
+        width: 40%;
+        height: 100%;
+        padding: 3vw 1vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5vw ;
+    }
+    .pg5 p{
+        font-size: 1.5vw;
+        font-weight: 600;
+        width: 80%;
+    }
+    .pg5 .img{
+        width: 100%;
+        height: 75%;
+        overflow: hidden;
+    }
+    .pg5 .right{
+        width: 40%;
+        height: 100%;
+        padding: 3vw 1vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5vw ;
+    }
+    .pg5 img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    footer{
+        width: 100%;
+        height: 15vh;
+        padding: 1vw 0;
+    }
+    footer .hero{
+        width: 100%;
+        height: 100%;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        display: flex;
+    }
+    footer .hero section{
+        display: flex;
+        align-items: center;
+    justify-content: center;
+    height: 100%;
+    }
+    footer .hero section:nth-child(1){
+    width: 40%;
+    border-right: 2px solid black;
+    justify-content: space-between;
+    padding: 0 3vw;
+    }
+    footer .hero section:nth-child(2){
+        width: 20%;
+        border-right: 2px solid black;
+        }
+        footer .hero section:nth-child(3){
+            width: 40%;
+            flex-direction: column;
+            gap: 0;
+            }
+            footer .top{
+                width: 100%;
+                height: 30%;
+                border-bottom: 2px solid black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            footer .bottom{
+                width: 100%;
+                height: 70%;
+                display: flex;
+                flex-direction: column;
+                gap: 3vw;
+                padding: 2vw;
+            }
+            footer h1{
+                font-size: 3.5vw;
+                font-family: monument;
+            }
+    footer h4{
+        font-size: 2.3vw;
+    }
+    footer ul{
+        display: flex;
+        align-items: center;
+    gap: 1.2vw;
+    }
+    footer h5{
+        font-size: 1.8vw;
+    }
+    footer p{
+        font-size: 1.8vw;
+        font-weight: 600;
+    }
+    .scroll1{
+        width: 100%;
+        height: 20vh;
+    white-space: nowrap;
+    overflow: auto;
+    margin: 10vw 0;
+    padding: 0 10px;
+    }
+    .scroll1 .container{
+        height: 100%;
+        width: fit-content;
+     display: inline-block;
+     animation-name: marquee;
+     animation-duration: 10s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+    }
+    .scroll1::-webkit-scrollbar{
+        display: none;
+    }
+    .scroll1 img{
+        height: 15vh;
+        width: 25vw;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: top;
+       margin-left: .5vw;
+       margin-right: 10px;
+    }
+    @keyframes marquee {
+        from{
+            transform: translateX(0%);
+        }
+        to{
+            transform: translateX(-100%);
+        }
+    }
+    
+}
+@media (max-width:1000px) {
+    *{
+        padding: 0;margin: 0;box-sizing: border-box;font-family:'gilroy';
+    }
+    html, body{
+    width: 100%;
+    height: 100%;
+    }
+    main{
+        position: relative;
+    }
+    .pg1{
+        width: 100%;
+        height: 130vh;
+        padding-top: 1vw;
+    }
+    nav{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    nav div{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2vw;
+    }
+    nav div:nth-child(1){
+        width: 35%;
+        border-right: 2px solid black;
+    }
+    nav div:nth-child(2){
+        width: 20%;
+        border-right: 2px solid black;
+        justify-content: center;
+    }
+    nav div:nth-child(3){
+        width: 25%;
+        border-right: 2px solid black;
+        justify-content: center;
+    }
+    nav div:nth-child(4){
+        width: 20%;
+        justify-content: center;
+    }
+    nav h1{
+        font-size: 3.6vw;
+        font-family: monument;
+    }
+    nav h4{
+        font-size: 2vw;
+    }
+    .pg1 .hero{
+        width: 100%;
+        height:90vh ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:2vw 5vw;
+    }
+    .hero .content{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .pg1 video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position:top;
+    }
+    .pg1 .hero h1{
+        font-size: 6vw;
+        color: white;
+        font-weight: 700;
+        font-family: monument;
+        position: absolute;
+        bottom: 10%;
+        left: 3vw;
+        width: 45%;
+    }
+    
+    .pg2{
+        width: 100%;
+        min-height: 100vh;
+        margin-top: 10vw;
+    }
+    .pg2-1{
+        width: 100%;
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .pg2-1 .left{
+        height: 50vh;
+        width: 100%;
+        object-fit: cover;
+        padding-right: 0.4vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: .5vw;
+        position: relative;
+    }
+    .pg2-1 .left img{
+        height: 98%;
+        width: 70%;
+    }
+    .pg2-1 .right{
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.6vw;
+        margin-top: 10vw;
+    }
+    .pg2-1 .right .top{
+        width: 70% ;
+        height: 75%;
+        overflow: hidden;
+    }
+    .pg2-1 .right .top img{
+        width: 100% ;
+        height: 100%;
+    object-fit: cover;    
+    object-position: top;
+    }
+    .pg2-1 .right .bottom{
+        width: 65%;
+        height: 24%;
+        display: flex;
+        padding-top: 1vw;
+        justify-content: space-between;
+    }
+    .pg2-1 .right .bottom h4{
+        font-size: 2vw;
+    width: 40%;
+    }
+    .pg2-1 .right .bottom p{
+        font-size: 1.8vw;
+        width: 50%;
+    }
+    .pg2-1 h2{
+        font-size: 3.5vw;
+        position: absolute;
+        left: 15%;
+        bottom: -5%;
+        font-family: monument;
+    }
+    .pg2-2{
+        width: 100%;
+        height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vw;
+    }
+    .pg2-2 .left {
+        width: 100%;
+        height: 30vh;
+        padding: 3vw;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: space-between;
+    
+    }
+    .pg2-2 .left .top{
+        width: 100%;
+        height: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pg2-2 .left .top img{
+        height: 60%;
+        animation-name: circle;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    @keyframes circle {
+        to{
+            rotate: 360deg;
+        }
+    }
+    .pg2-2 .left .bottom{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+    .pg2-2 .left h4{
+        font-size:2.5vw ;
+        width: 50%;
+    }
+    .pg2-2 .right{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 7vw;
+    }
+    .pg2-2 .right .img{
+    width: 75%;
+    height: 100%;
+    overflow: hidden;
+    }
+    .pg2-2 .right .img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .pg2-3{
+        height: 40vh;
+        width: 100%;
+        margin-top: 10vw;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .pg2-3 .img{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .pg2-3 .img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    .pg3{
+        width: 100%;
+    height: 60vh;
+margin-top: 10vw;
+    }
+    .pg3 .top{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pg3 h1{
+        font-size: 4vw;
+        font-weight: 600;
+        font-family: monument;
+    }
+    .pg3 .bottom{
+        width: 100%;
+        height: 50vh;
+        padding: 3vw 10vw;
+    }
+    .pg3 section{
+        width: 100%;
+        height: 25%;
+        border-top: 2px solid black;
+        display: flex;
+        align-items: center;
+        gap: 7vw;
+        padding-left: 1vw;
+        padding: 1.2vw 0;
+    }
+    .pg3 section:nth-last-child(1){
+        border-bottom: 2px solid black;
+    }
+    .pg3 section h4{
+        font-size: 2.5vw;
+        width: 10%;
+    }
+    .pg3 section .img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .pg3 section .img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .pg3 section h2{
+        font-size: 3.8vw;
+    }
+    .pg4{
+        width: 100%;
+        min-height: 100vh;
+        margin-top: 10vw;
+    }
+    .pg4-1{
+        width: 100%;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pg4-1 .left{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .pg4-1 .left .img{
+        height: 100%;
+        width: 75%;
+     overflow: hidden;
+    }
+    .pg4-1 .left img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    .pg4-1 .right{
+        width: 100%;
+        height: 60vh;
+        padding: 2vw 1vw;
+        margin-top: 7vw;
+    }
+    .pg4-1 .right .top{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        padding-left: 5vw;
+    }
+    .pg4-1 .right h1{
+        font-size: 3vw;
+        font-family: monument;
+    }
+    .pg4-1 .right h2{
+        font-size: 2vw;
+        font-weight: 600;
+        width: 60%;
+    }
+    .pg4-1 .right p{
+        font-size: 1.5vw;
+        width: 90%;
+    }
+    .pg4-1 .right .bottom{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .pg4-1 .right .bottom .img:nth-child(1){
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    }
+    .pg4-1 .right .bottom .img:nth-child(2){
+        width: 40%;
+        height: 100%;
+    overflow: hidden;
+        }
+    .pg4-1 .right img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .pg4-2{
+        width: 100%;
+        height: 30vh;
+        padding: 3vw;
+        margin-top: 5vw;
+    }
+    .pg4-2 .img{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    .pg4-2 img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .pg2-1-1{
+        margin-top: 10vw;
+        height: 120vh;
+    }
+    .marquee{
+        width: 100%;
+        height: 8vh;
+      white-space: nowrap;
+        margin: 5vw 0;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        overflow: auto;
+        margin-top: 10vw;
+    }
+    .marquee .container{
+        height: 100%;
+        width: fit-content;
+        display: inline-block;
+        animation-name: marquee;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    .marquee .box{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 1.5vw;   
+    }
+    .marquee::-webkit-scrollbar{
+        display: none;
+    }
+    .marquee h4{
+        font-size: 5vw;
+        font-weight: 900;
+        flex-shrink: 0;
+        color: transparent;
+        -webkit-text-stroke: 1px black;
+        font-family: monument;
+    }
+    .pg5{
+        width: 100%;
+       height: 40vh;
+        display: flex;
+        margin-top: 10vw;
+    }
+    .pg5 .left{
+        height: 100%;
+        width: 20%;
+        padding: 3vw;
+    }
+    .pg5 .left h1{
+        font-size: 3.5vw;
+        font-size: 600;
+        font-family: monument;
+    }
+    .pg5 .mid{
+        width: 40%;
+        height: 100%;
+        padding: 3vw 1vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5vw ;
+    }
+    .pg5 p{
+        font-size: 1.5vw;
+        font-weight: 600;
+        width: 80%;
+    }
+    .pg5 .img{
+        width: 100%;
+        height: 75%;
+        overflow: hidden;
+    }
+    .pg5 .right{
+        width: 40%;
+        height: 100%;
+        padding: 3vw 1vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5vw ;
+    }
+    .pg5 img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    footer{
+        width: 100%;
+        height: 15vh;
+        padding: 1vw 0;
+    }
+    footer .hero{
+        width: 100%;
+        height: 100%;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        display: flex;
+    }
+    footer .hero section{
+        display: flex;
+        align-items: center;
+    justify-content: center;
+    height: 100%;
+    }
+    footer .hero section:nth-child(1){
+    width: 40%;
+    border-right: 2px solid black;
+    justify-content: space-between;
+    padding: 0 3vw;
+    }
+    footer .hero section:nth-child(2){
+        width: 20%;
+        border-right: 2px solid black;
+        }
+        footer .hero section:nth-child(3){
+            width: 40%;
+            flex-direction: column;
+            gap: 0;
+            }
+            footer .top{
+                width: 100%;
+                height: 30%;
+                border-bottom: 2px solid black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            footer .bottom{
+                width: 100%;
+                height: 70%;
+                display: flex;
+                flex-direction: column;
+                gap: 3vw;
+                padding: 2vw;
+            }
+            footer h1{
+                font-size: 3.5vw;
+                font-family: monument;
+            }
+    footer h4{
+        font-size: 2.3vw;
+    }
+    footer ul{
+        display: flex;
+        align-items: center;
+    gap: 1.2vw;
+    }
+    footer h5{
+        font-size: 1.8vw;
+    }
+    footer p{
+        font-size: 1.8vw;
+        font-weight: 600;
+    }
+    .scroll1{
+        width: 100%;
+        height: 25vh;
+    white-space: nowrap;
+    overflow: auto;
+    margin: 10vw 0;
+    padding: 0 10px;
+    }
+    .scroll1 .container{
+        height: 100%;
+        width: fit-content;
+     display: inline-block;
+     animation-name: marquee;
+     animation-duration: 10s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+    }
+    .scroll1::-webkit-scrollbar{
+        display: none;
+    }
+    .scroll1 img{
+        height: 20vh;
+        width: 25vw;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: top;
+       margin-left: .5vw;
+       margin-right: 10px;
+    }
+    @keyframes marquee {
+        from{
+            transform: translateX(0%);
+        }
+        to{
+            transform: translateX(-100%);
+        }
+    }
+    
+}
